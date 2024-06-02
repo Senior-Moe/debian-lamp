@@ -25,7 +25,7 @@ apt install -y mariadb-server mariadb-client
 printf "\n\nMariaDB Setup...\n\n"
 sleep 3
 printf "\n\n\n\n"
-mariadb_secure_installation <<EOF
+mariadb-secure-installation <<EOF
 
 
 y
