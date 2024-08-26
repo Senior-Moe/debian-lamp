@@ -47,7 +47,8 @@ apt install apache2 apache2-doc -y
 printf "\n\nInstalling PHP...\n\n"
 sleep 3
 
-apt install php8.2 php-mysql -y && echo "<?php phpinfo(); ?>" >> /var/www/html/test.php
+apt install php8.2 php-mysql  php-json php-tokenizer -y && echo "<?php phpinfo(); ?>" >> /var/www/html/test.php
+
 
 
 #Installing PHP
